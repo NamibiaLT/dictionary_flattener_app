@@ -10,8 +10,11 @@ sample_dict1 = {
 }
 
 
+def test_not_implemented():
+
+
 def test_flatten_dict():
-    dif.flatten_dict(sample_dict1) == {
+    assert dif.flatten_dict(sample_dict1) == {
         'test': 1,
         'stuff.a': 1,
         'stuff.b': 2,
